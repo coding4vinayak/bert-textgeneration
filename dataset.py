@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 # Open the TMX file
-tree = ET.parse('output_polskapomoc-gov-pl_eng-pol_eng-pol.tmx')
+tree = ET.parse('/workspaces/bert-textgeneration/dataset/dataset.txt')
 root = tree.getroot()
 
 # Extract the Polish and English text from the TMX file
